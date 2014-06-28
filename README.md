@@ -5,7 +5,7 @@ ATG-Gradle-Plugin
 
 Step 1:
   在build.gradle中粘贴一下内容
-  
+ 
 buildscript {
     repositories {
         maven {
@@ -19,8 +19,8 @@ buildscript {
 apply plugin: 'atg'
 
 Step 2：
-  
-
+  build.gradle配置信息
+ 
 atg {
     //root = "C:\\atgcertenv20140212\\ATG10.0.2"  //ATG 安装目录
     //moduleName = "NGP.ModuleA" //当前模块的模块名，默认为当前GRADLE模块的模块名
@@ -36,3 +36,4 @@ atg {
         modules = ["store.war"]  //WEB内容的目录，可以包含多个WEB-APP
     }
 }
+ 
