@@ -35,3 +35,16 @@ ATG-Gradle-Plugin
             modules = ["store.war"]  //WEB内容的目录，可以包含多个WEB-APP
         }
     }
+
+# useful tasks
+
+install - Install module to ATG root.
+build - Assembles and tests this project.
+
+eclipse - Generates all Eclipse files.
+idea - Generates IDEA project files (IML, IPR, IWS)
+
+cleanInstall - remove installed module.
+clean - clean build directory.
+
+All tasks have supported "up-to-date" feature.
