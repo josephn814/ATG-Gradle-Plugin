@@ -23,6 +23,7 @@ ATG-Gradle-Plugin
         //root = "C:\\atgcertenv20140212\\ATG10.0.2"  //ATG 安装目录
         //moduleName = "NGP.ModuleA" //当前模块的模块名，默认为当前GRADLE模块的模块名
         dependOnModules = ["DSS"] //引用已经在ATG目录下已经存在的MODULEs
+        dependOnProjects = ["OtherModuleName"] //引用在当前GRADLE PROJECTS中的某些ATG MODULE
         /*
         manifest {
             attributes abc: "abc"  //可以增加其他MANIFEST 属性到模块的MANIFEST.MF文件中
