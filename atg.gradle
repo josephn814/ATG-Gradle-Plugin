@@ -5,7 +5,7 @@ buildscript {
         }
     }
     dependencies {
-        classpath "com.aaxis:atg-gradle-plugin:LASTED"
+        classpath "com.aaxis:atg-gradle-plugin:1.0-SNAPSHOT"
     }
 }
 
