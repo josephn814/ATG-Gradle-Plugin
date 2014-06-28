@@ -8,5 +8,3 @@ buildscript {
         classpath "com.aaxis:atg-gradle-plugin:1.0-SNAPSHOT"
     }
 }
-
-apply plugin: 'atg'
