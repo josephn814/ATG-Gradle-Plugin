@@ -1,7 +1,7 @@
 buildscript {
     repositories {
         maven {
-            url "https://github.com/josephn814/ATG-Gradle-Plugin/tree/master/repo"
+            url "https://raw.githubusercontent.com/josephn814/ATG-Gradle-Plugin/master/repo"
         }
     }
     dependencies {
