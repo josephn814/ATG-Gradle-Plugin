@@ -1,0 +1,12 @@
+buildscript {
+    repositories {
+        maven {
+            url "https://github.com/josephn814/ATG-Gradle-Plugin/tree/master/repo"
+        }
+    }
+    dependencies {
+        classpath "com.aaxis:atg-gradle-plugin:LASTED"
+    }
+}
+
+apply plugin: 'atg'
