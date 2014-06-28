@@ -1,0 +1,34 @@
+buildscript {
+    repositories {
+        maven {
+            url "https://raw.githubusercontent.com/josephn814/ATG-Gradle-Plugin/master/repo"
+        }
+    }
+    dependencies {
+        classpath "com.aaxis:atg-gradle-plugin:1.0-SNAPSHOT"
+    }
+}
+apply plugin: 'atg'
+
+sourceCompatibility = 1.5
+targetCompatibility = 1.5
+
+
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.apache.commons:common-lang3:3+"
+    testCompile "junit:junit:4.11"
+}
+
+atg {
+    moduleName = "Example"
+    dependOnModules = ["DSS"]
+    j2eeApps {
+        modules = ["store.war"]
+    }
+}
