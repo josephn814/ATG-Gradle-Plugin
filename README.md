@@ -38,13 +38,16 @@ ATG-Gradle-Plugin
 
 # useful tasks
 
-install - Install module to ATG root.
-build - Assembles and tests this project.
+>install - Install module to ATG root.
 
-eclipse - Generates all Eclipse files.
-idea - Generates IDEA project files (IML, IPR, IWS)
+>build - Assembles and tests this project.
 
-cleanInstall - remove installed module.
-clean - clean build directory.
+>eclipse - Generates all Eclipse files.
 
-All tasks have supported "up-to-date" feature.
+>idea - Generates IDEA project files (IML, IPR, IWS)
+
+>cleanInstall - remove installed module.
+
+>clean - clean build directory.
+
+>All tasks have supported "up-to-date" feature.
